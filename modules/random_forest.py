@@ -1,6 +1,7 @@
 import numpy as np
 from collections import Counter
-from decision_tree import DecisionTree
+
+from modules.decision_tree import DecisionTree
 
 class RandomForestClassifier:
     def __init__(self, n_estimators=100, max_depth=None, min_samples_split=2, max_features="sqrt"):

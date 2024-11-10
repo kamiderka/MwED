@@ -7,15 +7,6 @@ from sklearn.datasets import load_iris, fetch_openml
 import sys
 import os
 
-import numpy as np
-import matplotlib.pyplot as plt
-from sklearn.tree import DecisionTreeClassifier as SklearnDecisionTree
-from sklearn.metrics import accuracy_score
-from sklearn.model_selection import train_test_split
-from sklearn.datasets import load_iris, fetch_openml
-import sys
-import os
-
 # Ensure module paths are available for imports
 sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 from modules.decision_tree import DecisionTree
